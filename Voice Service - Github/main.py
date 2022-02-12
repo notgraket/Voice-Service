@@ -8,6 +8,7 @@ from threading import Thread
 import requests
 from datetime import date, datetime
 
+# Add your own OpenWeatherToken
 OpenWeatherToken = ""
 
 Recorder0 = AudioRecorder()
