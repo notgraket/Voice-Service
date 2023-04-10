@@ -1,6 +1,6 @@
 # Voice-Service
-My version of services like Amazon Alexa. 
+My version of a voice service (localized not cloud based)
+// This will be true once I find a working offline voice interpreter for Python
+// Or I may rewrite the whole thing in C++
 
-Spoken command based, no sentence interpretation set up so you must say the command and expected arguments in order.
-
-Please leave suggestions for edits, I'm not a professional coder by any means and I have a lot to learn.
+Commands must be spoken in sequence, example: "order soda 1" if order was the command, soda was the object and 1 was the quantity.
